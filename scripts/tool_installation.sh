@@ -6,15 +6,10 @@ cd $HOME
 
 echo "--------- Cloning matic-validator-mission-control -----------"
 
-git clone https://github.com/vitwit/matic-jagar.git
 
 cd matic-jagar
 
-mkdir -p  ~/.matic-jagar/config/
 
-cp example.config.toml ~/.matic-jagar/config/config.toml
-
-cd $HOME
 
 echo "------------ Creating database matic in influxdb-------------"
 
