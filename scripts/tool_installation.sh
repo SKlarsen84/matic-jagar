@@ -35,7 +35,7 @@ fi
 
 echo "------ Building and running the code --------"
 
-cd matic-jagar
+cd matic_jagar
 
 go build -o matic-jagar
 mv matic-jagar $HOME/go/bin
