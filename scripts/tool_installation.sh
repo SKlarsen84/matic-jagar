@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e
-
 cd $HOME
 
 echo "------------ Creating database matic in influxdb-------------"
