@@ -4,13 +4,6 @@ set -e
 
 cd $HOME
 
-echo "--------- Cloning matic-validator-mission-control -----------"
-
-
-cd matic-jagar
-
-
-
 echo "------------ Creating database matic in influxdb-------------"
 
 curl "http://localhost:8086/query" --data-urlencode "q=CREATE DATABASE matic"
